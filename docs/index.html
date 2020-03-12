@@ -7,21 +7,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+ <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      name: '<h5>unicorn</h5>',
       repo: '',
 	  coverpage: true,
 	  loadSidebar: true,
 	  loadNavbar: true,
-	  subMaxLevel: 3
+	  subMaxLevel: 3,
+	  themeColor: '#308d7a',
+	  executeScript: true,
+	  search: {
+        maxAge: 86400000,               // 过期时间，单位毫秒，默认一天
+        paths: 'auto',                      // or 'auto'，匹配文件路径
+        placeholder: '搜索', 
+        noData: '找不到内容',          
+        depth: 2,                       // 搜索标题的最大程级, 1 - 6
+      }
     }
   </script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  
+  <script src="//unpkg.com/prismjs@1.19.0/components/prism-json.min.js"></script>
+  <script src="//unpkg.com/prismjs@1.19.0/components/prism-sql.min.js"></script>
+  <script src="//unpkg.com/prismjs@1.19.0/components/prism-java.min.js"></script>
+  <script src="//unpkg.com/prismjs@1.19.0/components/prism-properties.min.js"></script>
+ 
 </body>
 </html>
