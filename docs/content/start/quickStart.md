@@ -26,9 +26,9 @@
 
 如果想要在spring boot程序中使用到`unicorn`，只需要在启动类`xxxApplication.java`上增加以下注解
 ```java
-@EnableUnicornConfiguration
+@EnableUnicorn
 ```
 到此就完成里unicorn所有的配置，总结下，总共就两点
 1. 引入依赖
-2. 在启动类加上@EnableUnicornConfiguration的注解
+2. 在启动类加上@EnableUnicorn的注解
 
