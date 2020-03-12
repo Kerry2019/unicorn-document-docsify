@@ -1,5 +1,6 @@
+![logo](imgs/unicorn_logo.png)
 
-# Unicorn 后端开发平台
+# 后端开发规范平台
 
 ## 提高开发效率，规范代码风格
 ### 约定高于配置
