@@ -6,8 +6,8 @@
 * 数据库
 	* [建表](./content/database/table.md)
 	* [sequence](./content/database/sequence.md)
-	* [索引](./content/database/index.md)
 	* [同义词](./content/database/synonym.md)
+	* [索引](./content/database/index.md)
 * 规范
 	* [http响应规范](./content/standard/response.md)
 	* [业务异常规范](./content/standard/exception.md)
