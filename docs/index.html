@@ -10,10 +10,11 @@
  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Please wait...</div>
+  
   <script>
     window.$docsify = {
-      name: '<h5>unicorn</h5>',
+      name: '<h5>Unicorn开发手册</h5>',
       repo: '',
 	  coverpage: true,
 	  loadSidebar: true,
@@ -27,7 +28,12 @@
         placeholder: '搜索', 
         noData: '找不到内容',          
         depth: 2,                       // 搜索标题的最大程级, 1 - 6
-      }
+      },
+	   copyCode: {
+		buttonText : 'copy',
+		errorText  : 'Error',
+		successText: 'copied'
+		}
     }
   </script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
@@ -36,6 +42,9 @@
   <script src="//unpkg.com/prismjs@1.19.0/components/prism-sql.min.js"></script>
   <script src="//unpkg.com/prismjs@1.19.0/components/prism-java.min.js"></script>
   <script src="//unpkg.com/prismjs@1.19.0/components/prism-properties.min.js"></script>
+  <script src="//unpkg.com/prismjs@1.19.0/components/prism-http.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
  
 </body>
 </html>

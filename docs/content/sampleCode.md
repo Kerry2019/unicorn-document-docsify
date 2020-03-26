@@ -50,7 +50,7 @@ cache 20;
 		</dependency>
 		<!--unicorn-->
 		<dependency>
-			<groupId>com.smec.mpaas</groupId>
+			<groupId>cn.kerrysmec.mpaas</groupId>
 			<artifactId>unicorn</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

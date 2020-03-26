@@ -1,11 +1,11 @@
-![logo](imgs/unicorn_logo.png)
 
-# 后端开发规范平台
+# **Unicorn开发手册**
 
-### 提高开发效率，规范代码风格
+### 规范代码风格，提高开发效率
 
-### 约定高于配置
 
-[快速开始](./content/start/quickStart.md)
+[快速开始](./content/start/description.md)
+[unicorn助手](./content/start/quickStart.md)
 [GitHub](https://github.com/Kerry2019/unicorn.git)
 
+![color](#FFFFFF)
