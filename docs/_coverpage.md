@@ -6,6 +6,5 @@
 
 [快速开始](./content/start/description.md)
 [unicorn助手](./content/start/quickStart.md)
-[GitHub](https://github.com/Kerry2019/unicorn.git)
 
 ![color](#FFFFFF)
