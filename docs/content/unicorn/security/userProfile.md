@@ -1,4 +1,4 @@
-unicorn将获取当前用户信息的静态方法，都写在`com.smec.mpaas.unicorn.pojo.UserProfileThread`类中。如果接口安全认证正常，可以通过下列方法获取当前用户的账号，否则获取到的账号是 `anonymous`。
+unicorn将获取当前用户信息的静态方法，都写在`com.smec.mpaas.unicorn.comm.pojo.UserProfileThread`类中。如果接口安全认证正常，可以通过下列方法获取当前用户的账号，否则获取到的账号是 `anonymous`。
 
 > 获取当前账号
 

@@ -6,13 +6,13 @@
 ```properties
 #示例
 mpaas.unicorn.security.open=true
-mpaas.unicorn.security.mode=adfs
+mpaas.unicorn.security.mode=jwks
 mpaas.unicorn.security.header-name=token
 mpaas.unicorn.security.public-route=/user/findAllUser,/user/findUserByUsername
 ```
 >`mpaas.unicorn.security`前缀下有四个参数：
 1. `open`：Boolean类型，表示开启接口安全。默认值是false，当为true时开启接口安全。
-2. `mode`：String类型，表示单点登录模式。目前有三个值选项 `simple/adfs/custom` ，默认值是simple，具体的接入方式后续文档中说明。
+2. `mode`：String类型，表示单点登录模式。目前有三个值选项 `simple/jwks/custom` ，默认值是simple，具体的接入方式后续文档中说明。
 3. `header-name`：String类型，表示将用户信息凭证存放接口header中键的名字。默认值是uid。
 4. `public-route`：String类型，表示在已经开启接口安全的前提下，需要绕过接口安全，设置成公共接口的路由匹配。当有`多个值`时可以用逗号隔开，并且支持写`正则表达式`。
 

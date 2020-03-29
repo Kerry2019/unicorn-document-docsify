@@ -5,6 +5,6 @@
 
 
 [快速开始](./content/start/description.md)
-[unicorn助手](./content/start/quickStart.md)
+[unicorn助手](./content/unicorn/start.md)
 
 ![color](#FFFFFF)
