@@ -37,7 +37,7 @@ create table 表名
 
 给表字段写注释可以直接在数据库客户端上操作，也可以通过sql来:
 
-```
+```sql
 comment on column schema名.表名.字段名
   is '注释内容';
   
