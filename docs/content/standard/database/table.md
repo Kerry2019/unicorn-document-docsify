@@ -52,5 +52,5 @@ comment on column REMES.MNT_NOTICE_ACCOUNT_LINES.status
 
 这里也规范了主键和索引的命名方式：
 
-1. `主键`：表名+“_PK”，PK是Primary Key 的简称。
-2. `普通索引`：表名+“_N1”，如果有多个索引，就一直 “N2、N3 ...”  一直加下去。
+1. `主键`：表名+“_PKN”，`PK`是Primary Key 的简称，`N`是数字1、2、3...n，表示多个主键的序号。
+2. `普通索引`：表名+“_INDEXN”，`INDEX`表示索引，同样`N`是数字1、2、3...n，表示多个索引的序号。
