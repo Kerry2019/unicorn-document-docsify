@@ -3,7 +3,7 @@
 	* [文档说明](./content/start/description.md)
 
 * **开发规范**
-	* 数据库
+	* Oracle数据库
 		* [建表](./content/standard/database/table.md)
 		* [sequence](./content/standard/database/sequence.md)
 		* [同义词](./content/standard/database/synonym.md)
@@ -37,10 +37,7 @@
 		* [封装类响应](./content/unicorn/standard/wrapper.md)
 	* [更新日志](./content/unicorn/versionLog.md)
 * **Re:从零开始**
-	* [说明](./content/re/start.md)
-	* [1 SQL脚本]()
-	* [2 创建spring boot项目]()
-	* [3 项目环境]()
-	* [4 pojo类]()
-
-
+	* [环境搭建](./content/beginner/environment.md)
+	* [Oracle数据库](./content/beginner/database.md)
+	* [spring boot代码](./content/beginner/springboot.md)
+	* [API 验证](./content/beginner/test.md)
