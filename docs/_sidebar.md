@@ -4,8 +4,8 @@
 
 * **开发规范**
 	* Oracle数据库
-		* [建表](./content/standard/database/table.md)
-		* [sequence](./content/standard/database/sequence.md)
+		* [命名规范](./content/standard/database/name.md)
+		* [表+序列](./content/standard/database/table.md)
 		* [同义词](./content/standard/database/synonym.md)
 		* [索引](./content/standard/database/index.md)
 	* RESTful规范

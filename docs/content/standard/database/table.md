@@ -1,4 +1,20 @@
-项目上使用的数据库都是oracle数据库，所有本章的所有内容介绍，都基于oracle数据库的环境来进行。
+项目上使用的`sequence`是数据库系统按照一定规则自增的数字序列，因为自增所以不会重复。所以一般用来代理表的主键，唯一标识。
+
+
+
+我们规范要求每新建一张表，都要对应的创建一个sequence。并且sequence有命名要求，是对应的表名后面加上”`_s`“。
+
+```sql
+-- Create sequence 
+create sequence 表名_S
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+```
+
+数据库都是oracle数据库，所有本章的所有内容介绍，都基于oracle数据库的环境来进行。
 
 ## 1 表字段
 
@@ -46,11 +62,31 @@ comment on column REMES.MNT_NOTICE_ACCOUNT_LINES.status
   is '分公司结算流程状态（值列表MNT_NOTICE_ACCOUNT_LINES_STATUS）';
 ```
 
+## 3 其他
+
+表中还需要创建**主键**。
+
+根据实际情况来决定是否要创建**索引**。
+
+具体主键和索引的命名规则看其他章节。
 
 
-## 3 主键、索引
 
-这里也规范了主键和索引的命名方式：
+## 4 sequence
 
-1. `主键`：表名+“_PKN”，`PK`是Primary Key 的简称，`N`是数字1、2、3...n，表示多个主键的序号。
-2. `普通索引`：表名+“_INDEXN”，`INDEX`表示索引，同样`N`是数字1、2、3...n，表示多个索引的序号。
+> `sequence`是数据库系统按照一定规则自增的数字序列，因为自增所以不会重复。所以一般用来代理表的主键，唯一标识。
+
+
+
+我们规范要求每新建一张表，都要对应的创建一个sequence。并且sequence有命名要求，是对应的表名后面加上”`_s`“。
+
+```sql
+-- Create sequence 
+create sequence 表名_S
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+```
+
