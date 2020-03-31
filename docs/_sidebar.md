@@ -3,6 +3,7 @@
 	* [文档说明](./content/start/description.md)
 
 * **开发规范**
+	* [Java规范](./content/standard/java.md)
 	* Oracle数据库
 		* [命名规范](./content/standard/database/name.md)
 		* [表+序列](./content/standard/database/table.md)

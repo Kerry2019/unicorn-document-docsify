@@ -8,19 +8,12 @@
 > **本地 maven**
 
 1. maven下载，如：[apache-maven-3.5.4-bin.zip。](http://maven.apache.org/download.cgi)
-
 2. 本地解压压缩包。
-
 3. 配置环境变量
-
 4. cmd验证，mvn -version。
-
 5. 设置本地maven仓库（\conf\settings.xml中）。
-
 6. 常用命令
-
    （1）将jar包入本地maven仓库。
-
    ```shell
    mvn install:install-file -Dfile=jar包的位置(参数一) -DgroupId=groupId(参数二) -DartifactId=artifactId(参数三) -Dversion=version(参数四) -Dpackaging=jar）
    ```
