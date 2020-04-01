@@ -16,7 +16,7 @@
         <dependency>
             <groupId>cn.kerrysmec.mpaas</groupId>
             <artifactId>unicorn</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
+            <version>0.1.0</version>
         </dependency>
 ```
 
