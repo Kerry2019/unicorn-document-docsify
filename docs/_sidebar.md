@@ -25,6 +25,15 @@
 		* [Unicorn集成](./content/plugin/swagger/unicorn.md)
 		* [注解说明](./content/plugin/swagger/annotation.md)
 		* [示例代码](./content/plugin/swagger/code.md)
+	* Log4j2日志
+		* [Log框架](./content/plugin/log4j2/start.md)
+		* [xml配置](./content/plugin/log4j2/xml.md)
+		* [application配置](./content/plugin/log4j2/application.md)
+	* Admin监控
+		* [actuator](./content/plugin/admin/actuator.md)
+		* [spring boot admin监控](./content/plugin/admin/admin.md)
+		* [日志监控](./content/plugin/admin/log.md)
+	* [Zipkin链路追踪](./content/plugin/zipkin.md)
 * **Unicorn框架**
 	* [快速开始](./content/unicorn/start.md)
 	* 接口安全
