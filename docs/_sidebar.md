@@ -36,7 +36,7 @@
 	* [Zipkin链路追踪](./content/plugin/zipkin.md)
 	* Resilience4j熔断
 		* [说明](./content/plugin/resilience4j/start.md)
-		* [组件使用](./content/plugin/resilience4j/components.md)
+		* [组件列表](./content/plugin/resilience4j/components.md)
 * **Unicorn框架**
 	* [快速开始](./content/unicorn/start.md)
 	* 接口安全

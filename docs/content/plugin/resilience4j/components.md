@@ -10,6 +10,8 @@
 		</dependency>
 ```
 
+`CircuitBreaker`通过具有三种正常状态的有限状态机实现：CLOSED，OPEN和HALF_OPEN以及两个特殊状态DISABLED和FORCED_OPEN。当熔断器关闭时，所有的请求都会通过熔断器。如果失败率超过设定的阈值，熔断器就会从关闭状态转换到打开状态，这时所有的请求都会被拒绝。当经过一段时间后，熔断器会从打开状态转换到半开状态，这时仅有一定数量的请求会被放入，并重新计算失败率，如果失败率超过阈值，则变为打开状态，如果失败率低于阈值，则变为关闭状态。
+
 这个库提供了一个基于 ConcurrentHashMap 的 `CircuitBreakerRegistry` ，CircuitBreakerRegistry 是线程安全的，并且是原子操作。开发者可以使用 CircuitBreakerRegistry 来创建和检索 CircuitBreaker 的实例 ，开发者可以直接使用默认的全局`CircuitBreakerConfig` 为所有 CircuitBreaker 实例创建 CircuitBreakerRegistry ，如下所示：
 
 ```java
